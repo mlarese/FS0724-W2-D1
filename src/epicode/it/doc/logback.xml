@@ -29,11 +29,11 @@
     </appender>
 
     <!--
-        Configurazione specifica per la classe Main.
+        Configurazione specifica per la classe epicode.it.doc.Main.
         - logger: Nome della classe (incluso il package completo, se necessario).
         - level="TRACE": Registra tutti i messaggi (TRACE, DEBUG, INFO, WARN, ERROR).
     -->
-    <logger name="Main" level="TRACE">
+    <logger name="epicode.it.doc.Main" level="TRACE">
         <!-- Collega gli appender definiti sopra -->
         <appender-ref ref="CONSOLE" />
         <appender-ref ref="FILE" />
