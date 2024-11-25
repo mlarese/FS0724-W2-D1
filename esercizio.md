@@ -52,3 +52,5 @@ Occorre creare il codice di un progetto Java che implementa la gestione di un **
 6. **Extra**:
     - Usare una libreria di logging (es. LogBack) per stampare i messaggi di errore ogni volta che viene catturata un'eccezione.
     - Aggiungere un metodo di utilità in `Main` per stampare lo stato corrente del libro o dell'ebook (es. disponibilità, numero di prestiti correnti, ecc.).
+
+
