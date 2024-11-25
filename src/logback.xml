@@ -28,23 +28,13 @@
         </encoder>
     </appender>
 
-    <!--
-        Configurazione specifica per la classe epicode.it.doc.Main.
-        - logger: Nome della classe (incluso il package completo, se necessario).
-        - level="TRACE": Registra tutti i messaggi (TRACE, DEBUG, INFO, WARN, ERROR).
-    -->
-    <logger name="epicode.it.doc.Main" level="DEBUG">
-        <!-- Collega gli appender definiti sopra -->
-        <appender-ref ref="CONSOLE" />
-        <appender-ref ref="FILE" />
-    </logger>
 
     <!--
         Root Logger
         Configura il livello minimo di log per il resto del sistema.
         - level="INFO": Registra solo INFO, WARN e ERROR (DEBUG e TRACE verranno ignorati).
     -->
-    <root level="INFO">
+    <root level="DEBUG">
         <!-- Collega gli appender definiti sopra -->
         <appender-ref ref="CONSOLE" />
         <appender-ref ref="FILE" />
